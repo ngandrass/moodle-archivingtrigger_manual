@@ -34,6 +34,4 @@ defined('MOODLE_INTERNAL') || die(); // @codeCoverageIgnore
  */
 class archivingtrigger extends \local_archiving\driver\archivingtrigger {
 
-
-
 }

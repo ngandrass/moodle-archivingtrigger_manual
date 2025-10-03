@@ -26,6 +26,7 @@
 
 // Common
 $string['pluginname'] = 'Manual';
+$string['privacy:metadata'] = 'This archiving trigger plugin does not store any personal data.';
 
 // Settings.
 $string['setting_enabled'] = 'Enabled';
