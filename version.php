@@ -25,11 +25,11 @@
 defined('MOODLE_INTERNAL') || die(); // @codeCoverageIgnore
 
 $plugin->component = 'archivingtrigger_manual';
-$plugin->release = '0.0.1';
-$plugin->version = 2025091000;
+$plugin->release = '1.0.0';
+$plugin->version = 2025103000;
 $plugin->requires = 2024100700;
 $plugin->supported = [405, 500];
-$plugin->maturity = MATURITY_ALPHA;
+$plugin->maturity = MATURITY_STABLE;
 $plugin->dependencies = [
     'local_archiving' => 2025081900,
 ];
