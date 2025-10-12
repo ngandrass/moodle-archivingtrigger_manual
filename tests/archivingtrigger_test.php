@@ -29,7 +29,6 @@ namespace archivingtrigger_manual;
  * Tests for the archivingtrigger_manual implementation.
  */
 final class archivingtrigger_test extends \advanced_testcase {
-
     /**
      * Just a plain test to ensure nothing breaks when instantiating this trigger.
      *
@@ -43,5 +42,4 @@ final class archivingtrigger_test extends \advanced_testcase {
         $this->assertSame('archivingtrigger', $trigger->get_plugin_type());
         $this->assertSame('manual', $trigger->get_plugin_name());
     }
-
 }

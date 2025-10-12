@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - https://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -25,7 +24,7 @@
 
 namespace archivingtrigger_manual;
 
-// @codingStandardsIgnoreFile
+// phpcs:ignore
 defined('MOODLE_INTERNAL') || die(); // @codeCoverageIgnore
 
 
@@ -33,5 +32,4 @@ defined('MOODLE_INTERNAL') || die(); // @codeCoverageIgnore
  * Manual archiving trigger plugin
  */
 class archivingtrigger extends \local_archiving\driver\archivingtrigger {
-
 }

@@ -33,7 +33,8 @@ if ($hassiteconfig) {
     // phpcs:ignore Generic.CodeAnalysis.EmptyStatement.DetectedIf
     if ($ADMIN->fulltree) {
         // Enabled.
-        $settings->add(new admin_setting_configcheckbox('archivingtrigger_manual/enabled',
+        $settings->add(new admin_setting_configcheckbox(
+            'archivingtrigger_manual/enabled',
             get_string('setting_enabled', 'archivingtrigger_manual'),
             get_string('setting_enabled_desc', 'archivingtrigger_manual'),
             '1'
