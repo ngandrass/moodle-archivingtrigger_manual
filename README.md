@@ -20,14 +20,14 @@ Manual archiving trigger plugin for the [Moodle archiving subsystem](https://git
 You can find more information about the archiving subsystem in the [official documentation](https://archiving.gandrass.de/).
 
 
-# WARNING: DO NOT USE THIS PLUGIN YET!
+## Features
 
-This plugin is currently under active development. Please do **not use this plugin in production environments** yet!
+- Allows to manually create archive jobs via the job creation form of the archiving subsystem core
+- Manual archive jobs can be fully customized via the Moodle web interface during job creation
+- Allows manual archive creation to be enabled or disabled
 
-Once a stable version is released, this warning will be removed.
 
-
-# Installation
+## Installation
 
 Archiving triggers (`archivingtrigger`) are sub-plugins of the archiving subsystem core (`local_archiving`) and
 therefore require the core plugin to be installed. They then must be placed inside your Moodle directory under
